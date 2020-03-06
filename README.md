@@ -5,11 +5,17 @@
 * [spring-boot-logger](spring-boot-logger)：演示[Spring Boot Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html)如何通过Apollo配置中心实现动态调整Logging Level
 * [spring-cloud-logger](spring-cloud-logger)：演示[Spring Boot Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html)在Spring Cloud环境下如何通过Apollo配置中心方便地实现动态调整Logging Level
 * [spring-cloud-zuul](spring-cloud-zuul)：演示[Spring Cloud Zuul](https://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#netflix-zuul-reverse-proxy)如何通过Apollo配置中心实现动态路由
+* [spring-cloud-zuul-ratelimit](spring-cloud-zuul-ratelimit)：演示[Spring Cloud Zuul](https://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#netflix-zuul-reverse-proxy)的第三方限流插件[marcosbarbero/spring-cloud-zuul-ratelimit](https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit)如何通过Apollo配置中心实现动态限流
+* [spring-cloud-gateway](spring-cloud-gateway)：演示[Spring Cloud Gateway](https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.0.3.RELEASE/single/spring-cloud-gateway.html)如何通过Apollo配置中心实现动态路由
 * [spring-boot-encrypt](spring-boot-encrypt)：演示如何结合[jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)实现Apollo中存储加密配置
 * [dynamic-datasource](dynamic-datasource)：演示[Spring Boot默认的HikariCP DataSource](https://github.com/brettwooldridge/HikariCP)如何通过Apollo配置中心实现动态切换数据源（其它类型的DataSource也是类似的，可以依样画葫芦）
 * [dubbo](dubbo): 演示[Dubbo](https://github.com/apache/incubator-dubbo)如何通过Apollo配置中心实现中心化配置
 * [spring-boot-dubbo](spring-boot-dubbo): 演示[Dubbo Spring Boot Starter](https://github.com/apache/incubator-dubbo-spring-boot-project)如何通过Apollo配置中心实现中心化配置
-
+  * 该项目同时也演示了如何通过apollo管理logback的配置，详见[logback-spring.xml](https://github.com/ctripcorp/apollo-use-cases/blob/master/spring-boot-dubbo/spring-boot-dubbo-provider/src/main/resources/logback-spring.xml)
+* [netflix-archaius](netflix-archaius): 演示[Netflix Archaius](https://github.com/Netflix/archaius)如何使用Apollo配置中心作为其服务端使用
+* [sentinel](sentinel): 演示[Sentinel](https://github.com/alibaba/Sentinel)如何通过Apollo配置中心实现中心化流控规则配置
+* [properties-keeper](properties-keeper): 演示如何通过apollo管理启动前需要加载的properties文件配置
+* [spring-boot-agent](spring-boot-agent): 演示如何通过java agent探针技术实现应用无缝接入Apollo配置中心
 
 欢迎大家把日常工作中的更多配置使用案例分享出来，提交Pull Request即可！
 
